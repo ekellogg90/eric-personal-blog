@@ -6,11 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Blog Topics</title>
-  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/blog.css" />
 </head>
 
-<body>
-    <header>
-        
+<body class="container light">
+    <header class="headerContainer2">
+        <h1>Bloggin IT</h1>
+        <div>
+            <button id="back-button">🔙</button>
+            <button id="sun-button">☀</button>
+        </div>
     </header>
+
+    <div class="blog-card">
+        <h2>Blog Post</h2>
+        <p>User Name:<span id="user-name"></span></p>
+        <p>Title:<span id="title"></span></p>
+        <p>Content:<span id="content"></span></p>
+    </div>
+
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/blog.js"></script>
 </body>
