@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Blog Landing Page</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
   <link rel="stylesheet" href="./assets/css/form.css" />
 </head>
 
@@ -17,13 +18,17 @@
     <main>
         <section>
             <h2>What's on your mind?</h2>
-            <div class="box">
-                <input type="text" id="username" placeholder="Username">
-                <input type="text" id="title" placeholder="Title">
-                <textarea name="content" id="content" placeholder="Content" cols="5" rows="5"></textarea>
-                <button id="submit">Submit</button>
-                <script src="./assets/js/form.js"></script>
-            </div>
+            <form class="box" id="form">
+                <label for="Username"><b>User Name</b></label>
+                <input type="text" id="username">
+                <label for="title"><b>Blog Title</b></label>
+                <input type="text" id="title">
+                <label for="content"><b>Blog Content</b></label>
+                <textarea name="content" id="content" cols="5" rows="5"></textarea>
+                <input id="submit" type="submit"></input>
+            </form>
         </section>
     </main>
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
 </body>

@@ -1,28 +1,10 @@
-const container = document.querySelector('.container');
-const sunBtn = document.querySelector('#sun-button');
 const userName = document.querySelector('#username');
 const title = document.querySelector('#title');
 const content = document.querySelector('#content');
-const submitBtn = document.querySelector('#submit');
+const formEl = document.querySelector('#form');
 
-let mode = 'light';
-
-
-sunBtn.addEventListener('click', function () {
-    if (mode === 'light') {
-        mode = 'dark';
-        container.setAttribute('class', 'dark');
-        document.getElementById("sun-button").innerHTML = "🌑";
-    } 
-
-    else {
-        mode = 'light';
-        container.setAttribute('class', 'light');
-        document.getElementById('sun-button').innerHTML = "☀";
-    }
-});
-
-submitBtn.addEventListener('click', function(event) {
+// input storage + submit button
+formEl.addEventListener('submit', function(event) {
     event.preventDefault();
 
     const blogEntry = {
@@ -31,5 +13,13 @@ submitBtn.addEventListener('click', function(event) {
         content: content.value.trim(),
     };
 
-    localStorage.setItem('blogEntry', JSON.stringify(blogEntry));
+    let blogArray = JSON.parse(localStorage.getItem('blogArray'));
+    if (!blogArray) {
+        blogArray = [];
+    }
+
+    blogArray.push(blogEntry);
+
+    localStorage.setItem('blogArray', JSON.stringify(blogArray));
+    location.href = "blog.html" //maybe later add in error handling for null values
 });

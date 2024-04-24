@@ -1,86 +1,10 @@
 :root {
-    --dark-background: #121212;
-    --dark-font: whitesmoke;
-    --light-background: var(--dark-font);
-    --light-font: var(--dark-background);
 }
 
-html {
-    font-size: 85%;
-}
-
-body {
-    line-height: 1.5;
-}
-
-main {
-    width: 100%;
-    margin: 2rem auto;
-    height: 95%;
-}
-
-h2 {
-    font-size: 3.5rem;
-    text-align: center;
-}
-
-.headerContainer {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .box {
     display: flex;
     flex-flow: column wrap;
     width: 30%;
     margin: 0 auto;
-}
-
-  /* Light Mode */
-.light {
-    background-image: url(../pics/light.jpg);
-    color: var(--dark-background);
-}
-
-.light #sun-button {
-    border: none;
-    color: rgb(214, 68, 10);
-    background-color: transparent;
-    font-size: 50px; 
-}
-
-.light input, .light textarea {
-    background-color: var(--dark-font);
-    color: var(--dark-background);
-    font-size: 20px;
-}
-
-.light #submit {
-    background-color: var(--dark-background);
-    color: var(--dark-font);
-    font-size: 18px;
-}
-
-/* Dark Mode */
-.dark {
-    background-image: url(../pics/dark.jpg);
-    color: var(--dark-font)
-}
-
-.dark #sun-button {
-    border: none;
-    background-color: transparent;
-    font-size: 50px; 
-}
-
-.dark input, .dark textarea {
-    background-color: var(--dark-background);
-    color: var(--dark-font);
-    font-size: 20px;
-}
-
-.dark #submit {
-    background-color: darkslategray;
-    color: var(--dark-font);
-    font-size: 18px;
 }
