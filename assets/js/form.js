@@ -17,7 +17,6 @@ formEl.addEventListener('submit', function(event) {
     if (!blogArray) {
         blogArray = [];
     }
-
     blogArray.push(blogEntry);
 
     localStorage.setItem('blogArray', JSON.stringify(blogArray));

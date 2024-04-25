@@ -51,6 +51,16 @@ h2 {
     color: var(--dark-background);
 }
 
+.light .blogArray-title h3 {
+    background-color: var(--dark-background);
+    color: var(--dark-font);
+}
+
+.light .blogArray-title p {
+    background-color: var(--dark-background);
+    color: var(--dark-font);
+}
+
 .light #sun-button {
     border: none;
     color: rgb(214, 68, 10);
@@ -91,6 +101,16 @@ h2 {
 
 .dark h1 {
     color: var(--dark-font);
+}
+
+.dark .blogArray-title h3 {
+    background-color: var(--dark-font);
+    color: var(--dark-background);
+}
+
+.dark .blogArray-title p {
+    background-color: var(--dark-font);
+    color: var(--dark-background);
 }
 
 .dark #sun-button {
