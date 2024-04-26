@@ -17,7 +17,7 @@ Enter in your User Name, Blog Title, and Blog Content then hit 'Submit'.  This w
 
 
 
-App link - https://ekellogg90.github.io/eric-personal-blog/
+App link - [https://ekellogg90.github.io/eric-personal-blog/](https://ekellogg90.github.io/eric-personal-blog/)
 
 ## What I learned
 
