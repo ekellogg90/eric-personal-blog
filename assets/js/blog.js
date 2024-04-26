@@ -1,7 +1,7 @@
 const backBtn = document.querySelector('#back-button');
 
-const h3Style = "font-size:24px; margin-bottom:-15px; width:33%; text-align:center"  // Title style
-const pStyle = "font-size:18px; margin-bottom:-3px; width:33%;"  // Content style
+const h3Style = "font-size:24px; margin-bottom:-15px; width:33%; text-align:center; border-radius:5%"  // Title style
+const pStyle = "font-size:18px; margin-bottom:-3px; width:33%; border-radius:5%;"  // Content style
 const labelStyle = "font-size:16px; width:33%; text-align:right; font-style:italic"  // Author style
 
 // back button
