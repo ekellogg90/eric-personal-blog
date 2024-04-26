@@ -17,13 +17,13 @@ Enter in your User Name, Blog Title, and Blog Content then hit 'Submit'.  This w
 
 
 
-App link - https://ekellogg90.github.io/eric-js-payroll/
+App link - https://ekellogg90.github.io/eric-personal-blog/
 
 ## What I learned
 
-I learned how to use while and for loops in this challenge and to how to store user input into an object within an array.
+I learned how to set a light and dark mode scheme and enable the user to toggle between them.
 
-I also learned how to check if the user selects 'cancel' in a window prompt and implemented the expected behavior for that path.
+I also learned how to save data into local storage and grab it for display later.
   
 ## License
 
